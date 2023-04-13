@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Diseño Audiovisual">
+    <title>Portafolio de Diseño Audiovisual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Diseño Audiovisual</h1>
+    </header>
+    <main>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Video musical</h3>
+                <img src="img/video-musical.jpg" alt="Video musical">
+                <p>Descripción del proyecto</p>
+                <a href="proyectos/video-musical.html">Ver más</a>
+            </div>
+            <div class="proyecto">
+                <h3>Cortometraje</h3>
+                <img src="img/cortometraje.jpg" alt="Cortometraje">
+                <p>Descripción del proyecto</p>
+                <a href="proyectos/cortometraje.html">Ver más</a>
+            </div>
+            <div class="proyecto">
+                <h3>Video promocional</h3>
+                <img src="img/video-promocional.jpg" alt="Video promocional">
+                <p>Descripción del proyecto</p>
+                <a href="proyectos/video-promocional.html">Ver más</a>
+            </div>
+        </section>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="img/sobre-mi.jpg" alt="Sobre mí">
+            <p>Descripción sobre el diseñador audiovisual y su trabajo.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos reservados © Diseño Audiovisual 2023</p>
+    </footer>
+</body>
+</html>
